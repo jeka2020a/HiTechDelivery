@@ -1,0 +1,201 @@
+
+@media (max-width: 1200px) 
+{
+    .header__block {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .header__image {
+        width: 500px;
+    }
+    .header__title {
+        font-size: 25px;
+    }
+    .services__block {
+        flex-wrap: wrap;
+        padding-left: 40px;
+        padding-right: 40px;
+        justify-content: center;
+    }
+    .about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about__items {
+        flex-wrap: wrap;
+    }
+    .about__item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .itcss {
+        display: none;
+    }
+    .slider__block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .slider__mobile {
+        display: block;
+        border-radius: 5px;
+        background-color: #ffffff;
+        height: 200px;
+        overflow-x: none;
+        overflow-y: scroll;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-shadow: inset 0px 0px 15px #bbb;
+    }
+    .slider__box {
+        margin-bottom: 50px;
+    }
+    .services__box {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .short-info__block {
+        display: none;
+    }
+}
+@media (max-width: 900px)
+{
+    .column {
+        flex-direction: column;
+    }
+    .header__info {
+        text-align: center;
+        margin-top: -150px;
+        margin-bottom: 50px;
+    }
+    .services__box {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .message__block {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (max-width: 800px) {
+    .footer__title {
+        text-align: center;
+    }
+    .message__block {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items:normal;
+    }
+    .message__box {
+        text-align: center;
+    }
+    .footer__block {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer__box {
+        padding-left: 10px;
+        margin-bottom: 20px;
+        padding-right: 10px;
+    }
+    .footer__developer {
+        padding-left: 10px;
+    }
+}
+@media (max-width: 700px)
+{
+    .header__box {
+        display: none;
+    }
+    .header__burger {
+        display: block;
+        background-image: url("../images/menu.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        outline: none;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.0);
+    }
+    
+    .header__link-about {
+        display: block;
+        max-width: 180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header__box {
+        display: none;
+    }
+    .header__link-home {
+        display: none;
+    }
+    .close-menu {
+        border-top: 1px solid #FFF;
+        padding-top: 10px;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .header__menu-mobile {
+        display: none;
+        transition: 600ms;
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        white-space: nowrap;
+        top: 105px;
+        width: 100%;
+        color: #FFF;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        padding: 0px 40px 20px 0px;
+        background-color: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(10px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header__menu-li , .header__menu-link {
+        color: #FFF;
+        padding: 10px;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+    .header__menu {
+        display: block;
+    }
+    .header__butt {
+        display: none;
+    }
+    .header__menu-mobile {
+        display: none;
+    }
+}
+@media (max-width: 550px) {
+    .header__image {
+        width: 350px;
+    }
+}
+@media (max-width: 400px)
+{
+    .header__image {
+        display: none;
+    }
+    .message__image {
+        display: none;
+    }
+}
+@media (max-width: 350px)
+{
+    .message__area , .message__button {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
